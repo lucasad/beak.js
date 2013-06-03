@@ -4,8 +4,14 @@
     "version": "0.0.2",
     "author": "George Kats <katsgeorgeek@gmail.com>",
     "repository": "git@github.com:katsgeorgeek/beak.js.git",
-    "engines": { 
+    "engines": {
         "node": ">= 0.8.0"
-    }
+    },
+	"keywords": [
+		"router",
+		"routing",
+		"route"
+	],
+	"license": "MIT"
 }
 
