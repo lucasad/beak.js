@@ -1,7 +1,7 @@
 {
     "name": "beak",
     "description": "URL router",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "author": "George Kats <katsgeorgeek@gmail.com>",
     "repository": "git@github.com:katsgeorgeek/beak.js.git",
     "engines": { 
