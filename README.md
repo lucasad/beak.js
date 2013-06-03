@@ -2,6 +2,8 @@
 Beak.js is a simple URL router for NodeJS.
 
 # Install
+	npm install beak
+
 ### From Source
 	git clone git://github.com/katsgeorgeek/beak.js.git
     cd beak.js
