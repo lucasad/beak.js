@@ -1,7 +1,7 @@
 {
     "name": "beak",
     "description": "URL router",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "author": "George Kats <katsgeorgeek@gmail.com>",
     "repository": "git@github.com:katsgeorgeek/beak.js.git",
     "engines": {
@@ -12,6 +12,10 @@
 		"routing",
 		"route"
 	],
+	"devDependecies": {
+		"mocha": "~1.9.0",
+		"chai": "~1.6.0"
+	},
 	"license": "MIT"
 }
 
