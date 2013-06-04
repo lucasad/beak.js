@@ -10,22 +10,22 @@ Beak.js is a simple URL router for NodeJS.
     npm link
 
 # Basic Usage
-	var Router = require('beak');
+	var router = require('beak');
 
-	Router.get('/post/:id/', function(request, response) {
+	router.get('/post/:id/', function(request, response) {
     	console.log(request.params.id);
 	});
 
-	http.createServer(Router.listener).listen(HTTP_PORT, function () {
+	http.createServer(router.listener).listen(HTTP_PORT, function () {
 	    console.log('Server running at http://127.0.0.1:' + 3000);
 	});
 
 # Methods
 
-* `Router.get`:  Match `GET` requests
-* `Router.post`: Match `POST` requests
-* `Router.put`:  Match `PUT` requests
-* `Router.delete`:  Match `DELETE` requests
+* `router.get`:  Match `GET` requests
+* `router.post`: Match `POST` requests
+* `router.put`:  Match `PUT` requests
+* `router.delete`:  Match `DELETE` requests
 
 # Changelog
 
