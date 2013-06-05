@@ -10,7 +10,8 @@ Beak.js is a simple URL router for NodeJS.
     npm link
 
 # Basic Usage
-	var router = require('beak');
+	var Router = require('beak');
+	var router = new Router();
 
 	router.get('/post/:id/', function(request, response) {
     	console.log(request.params.id);
