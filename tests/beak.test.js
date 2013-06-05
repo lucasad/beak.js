@@ -129,4 +129,16 @@ describe('Beak router', function() {
 		});
 	});
 
+	describe('Setup router object', function() {
+		it('should support ability to change default 404 handler', function() {
+			var config = {
+				notFound: function(request, response) {}
+			};
+
+			router = new Router(config);
+			expect(router.notFound).to.equal(config.notFound);
+		});
+
+	});
+
 });
