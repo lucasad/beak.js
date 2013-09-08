@@ -18,7 +18,7 @@ Beak.js is a simple URL router for NodeJS.
 	});
 
 	http.createServer(router.listener).listen(HTTP_PORT, function () {
-	    console.log('Server running at http://127.0.0.1:' + 3000);
+	    console.log('Server running at http://127.0.0.1:' + HTTP_PORT);
 	});
 
 # Methods
